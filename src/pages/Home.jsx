@@ -6,11 +6,15 @@ import L from 'leaflet';
 import { MapPin, Star, Clock, Activity, Tent } from 'lucide-react';
 const trekIcon = new L.Icon({
   iconUrl: '/assets/trek_zigzag_icon.png',
-  iconSize: [32, 32]
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -32]
 });
 const campIcon = new L.Icon({
   iconUrl: '/assets/camp_tent_icon.png',
-  iconSize: [32, 32]
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -32]
 });
 
 // Fix for default leaflet icons not showing up in React Leaflet
@@ -102,6 +106,7 @@ export default function Home() {
             <Marker 
               key={trail.id} 
               position={trail.coordinates}
+              icon={trail.type.includes('Trek') ? trekIcon : campIcon}
               eventHandlers={{
                 click: () => setSelectedTrail(trail),
               }}
