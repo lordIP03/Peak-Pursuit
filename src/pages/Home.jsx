@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { MAHARASHTRA_TRAILS } from '../data/mockData';
@@ -26,6 +27,7 @@ L.Icon.Default.mergeOptions({
 });
 
 export default function Home() {
+  const navigate = useNavigate();
   const [selectedTrail, setSelectedTrail] = useState(MAHARASHTRA_TRAILS[0]);
   
   // Center of Maharashtra roughly
@@ -83,7 +85,7 @@ export default function Home() {
             ))}
           </div>
 
-          <button className="glass-button" style={{ width: '100%' }}>
+          <button className="glass-button" style={{ width: '100%' }} onClick={() => navigate(`/trail/${selectedTrail.id}`)}>
             View Full Details
           </button>
         </div>
