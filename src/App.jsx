@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
+import TrailDetail from './pages/TrailDetail';
 
 function App() {
   return (
@@ -22,6 +23,11 @@ function App() {
             <Route path="/profile" element={
               <ProtectedRoute>
                 <Profile />
+              </ProtectedRoute>
+            } />
+            <Route path="/trail/:id" element={
+              <ProtectedRoute>
+                <TrailDetail />
               </ProtectedRoute>
             } />
           </Routes>
