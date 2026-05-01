@@ -4,6 +4,14 @@ import 'leaflet/dist/leaflet.css';
 import { MAHARASHTRA_TRAILS } from '../data/mockData';
 import L from 'leaflet';
 import { MapPin, Star, Clock, Activity, Tent } from 'lucide-react';
+const trekIcon = new L.Icon({
+  iconUrl: '/assets/trek_zigzag_icon.png',
+  iconSize: [32, 32]
+});
+const campIcon = new L.Icon({
+  iconUrl: '/assets/camp_tent_icon.png',
+  iconSize: [32, 32]
+});
 
 // Fix for default leaflet icons not showing up in React Leaflet
 delete L.Icon.Default.prototype._getIconUrl;

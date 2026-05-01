@@ -64,4 +64,83 @@ export const MAHARASHTRA_TRAILS = [
     image: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     description: "A perfect weekend getaway. Enjoy lakeside camping with BBQ, campfire, and live music. Very accessible by car."
   }
+,
+  {
+    id: 6,
+    name: "Kodar (Khandala) Trek",
+    type: "Trek",
+    coordinates: [18.7021, 73.4003],
+    difficulty: "Moderate",
+    duration: "1 Day",
+    rating: 4.6,
+    reviews: 210,
+    tags: ["Scenic", "Viewpoints"],
+    image: "https://images.unsplash.com/photo-1617191515785-3c4c7b75f5e2?auto=format&fit=crop&w=800&q=80",
+    description: "A popular trek near Lonavala offering panoramic views of the valleys."
+  },
+  {
+    id: 7,
+    name: "Kheerganga Trek",
+    type: "Trek",
+    coordinates: [31.7705, 77.1669],
+    difficulty: "Hard",
+    duration: "2 Days",
+    rating: 4.9,
+    reviews: 340,
+    tags: ["Hot Springs", "Mountain"],
+    image: "https://images.unsplash.com/photo-1504470695779-757c9f6f9a6b?auto=format&fit=crop&w=800&q=80",
+    description: "High altitude trek in Himachal with natural hot springs at the end."
+  },
+  {
+    id: 8,
+    name: "Chembra Peak Trek",
+    type: "Trek",
+    coordinates: [11.4369, 76.2994],
+    difficulty: "Moderate",
+    duration: "2 Days",
+    rating: 4.7,
+    reviews: 180,
+    tags: ["Heart Shaped Lake", "Forests"],
+    image: "https://images.unsplash.com/photo-1549366029-0f31c7e0d6f9?auto=format&fit=crop&w=800&q=80",
+    description: "Famous trek in Wayanad known for its heart‑shaped lake."
+  },
+  {
+    id: 9,
+    name: "Rishikesh Riverside Camping",
+    type: "Camping",
+    coordinates: [30.1195, 78.3145],
+    difficulty: "Easy",
+    duration: "1 Night",
+    rating: 4.8,
+    reviews: 260,
+    tags: ["River", "Yoga"],
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    description: "Camp by the Ganges with yoga sessions and river activities."
+  },
+  {
+    id: 10,
+    name: "Spiti Valley Stargazing Camp",
+    type: "Camping",
+    coordinates: [32.2365, 78.0018],
+    difficulty: "Moderate",
+    duration: "2 Nights",
+    rating: 4.9,
+    reviews: 190,
+    tags: ["Night Sky", "Desert"],
+    image: "https://images.unsplash.com/photo-1496307042754-b4aa456b6b6f?auto=format&fit=crop&w=800&q=80",
+    description: "Experience crystal‑clear night skies in the high‑altitude Spiti desert."
+  },
+  {
+    id: 11,
+    name: "Sunderbans Eco Camp",
+    type: "Camping",
+    coordinates: [21.9499, 88.8429],
+    difficulty: "Easy",
+    duration: "1 Night",
+    rating: 4.5,
+    reviews: 140,
+    tags: ["Mangroves", "Wildlife"],
+    image: "https://images.unsplash.com/photo-1515879218361-3b2e1c5e4d3d?auto=format&fit=crop&w=800&q=80",
+    description: "Eco‑friendly camp in the mangrove forests of the Sunderbans."
+  }
 ];
