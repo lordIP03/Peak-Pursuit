@@ -36,17 +36,17 @@
 
 ---
 
-## 🔨 Phase 2 — Review & Rating System
+## ✅ Phase 2 — Review & Rating System
 
-- [ ] Create Supabase `reviews` table (user_id, trail_id, rating, text, created_at)
-- [ ] Star rating input component (1–5 stars)
-- [ ] Written review form on trail detail page
-- [ ] Display all reviews for a trail (newest first)
-- [ ] Average rating calculation from user reviews
-- [ ] Review count display
-- [ ] One review per user per trail (edit/update allowed)
-- [ ] Timestamp formatting ("2 days ago", "3 weeks ago")
-- [ ] Empty state — "Be the first to review this trail"
+- [x] Create Supabase `reviews` table (user_id, trail_id, rating, text, created_at)
+- [x] Star rating input component (1–5 stars)
+- [x] Written review form on trail detail page
+- [x] Display all reviews for a trail (newest first)
+- [x] Average rating calculation from user reviews
+- [x] Review count display
+- [x] One review per user per trail (edit/update allowed)
+- [x] Timestamp formatting ("2 days ago", "3 weeks ago")
+- [x] Empty state — "Be the first to review this trail"
 
 ---
 

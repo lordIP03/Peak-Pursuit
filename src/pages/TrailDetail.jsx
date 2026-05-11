@@ -15,6 +15,7 @@ import {
   Camera,
   Star
 } from 'lucide-react';
+import ReviewSection from '../components/ReviewSection';
 import './TrailDetail.css';
 
 const THINGS_TO_CARRY = [
@@ -115,6 +116,9 @@ const TrailDetail = () => {
               </div>
             </div>
           </section>
+
+          {/* Reviews Section */}
+          <ReviewSection trailId={trail.id} />
         </div>
 
         <div className="trail-sidebar">
